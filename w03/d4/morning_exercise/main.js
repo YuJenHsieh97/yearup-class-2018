@@ -8,11 +8,18 @@ const quotes = [
   '"I sell ice in the winter, I sell fire in hell, I am a hustler baby, I’ll sell water to a well" - Jay Z'
 ];
 
-function randomQuote(){
-
+function randomQuote(array){
+  let quoteElement = document.getElementById('quote');
+  let randomNumber = Math.floor(Math.random() *quotes.length);
+  quoteElement.innerHTML = quotes[randomNumber];
+  randomQuote(quotes);
 }
+
+
+
+
 
 let button = document.querySelector('button');
 button.addEventListener('click', randomQuote);
 
-// randomQuote();
+// randomQuote(quotes);
