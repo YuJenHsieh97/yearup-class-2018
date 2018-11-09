@@ -1,0 +1,25 @@
+*{
+  text-align: center;
+}
+.window{
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+
+
+body{
+  background-image: url(http://clipart-library.com/images/8T65aLnkc.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container{
+  width:40vh; 
+  height:40vh;
+}
+
+.button{
+  color:red;
+}

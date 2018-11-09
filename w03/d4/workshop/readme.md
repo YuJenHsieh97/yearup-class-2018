@@ -29,7 +29,7 @@ By the end of this exercise the student will be able to:
 
 - Complete Workshop by end of allotted time limit.
 - The completed assignment:
-  - displays a random gif when loaded.
-  - has a button for displaying another gif.
-  - is accompanied with an appropriate wireframe.
+- displays a random gif when loaded.
+- has a button for displaying another gif.
+- is accompanied with an appropriate wireframe.
 - Group review session with the instructor.
