@@ -1,0 +1,11 @@
+.black-border {
+  border: 3px solid black;
+}
+
+.red-border {
+  border: 3px solid red;
+}
+
+img {
+  width: 200px;
+}
