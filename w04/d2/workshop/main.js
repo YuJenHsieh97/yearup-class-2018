@@ -9,11 +9,11 @@ axios.get(url)
       let newImg=document.createElement('img');
       let all = open.data.products[i].images[0].src;
       newImg.src = all;
+      // div.innerHTML = open.data.products[i].
       div.appendChild(newImg);
-      // console.log(div);
+      console.log(div);
     }
   });
-
 
 
 
