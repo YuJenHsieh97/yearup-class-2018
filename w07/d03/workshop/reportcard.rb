@@ -5,7 +5,7 @@ class Reportcard
   end
 
   def addGrade(grade)
-    if @grades[grade.subject]
+    if @grades[subject,grade]
       raise "Sorry, you cannot add or change #{subject} because it was already entered."
     end
     @grades[grade.subject]
@@ -17,8 +17,8 @@ class Reportcard
     end
   end
 
-  def grades
-    @grades
-  end
+  # def grades
+  #   @grades
+  # end
 
 end

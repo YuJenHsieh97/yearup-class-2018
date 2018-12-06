@@ -1,7 +1,8 @@
-require 'faker'
+require_relative 'faker'
 require './student'
 require './classroom'
 require './grade'
+require './reportcard'
 
 # Our four classrooms for the first years
 @A = Classroom.new("1A")
@@ -11,10 +12,10 @@ require './grade'
 
 def genStudent
   s = Student.new(Faker::Name::name, rand(11..20))
-  s.reportcard.addGrade(Grade.new("math", rand(0..100)))
-  s.reportcard.addGrade(Grade.new("history", rand(0..100)))
-  s.reportcard.addGrade(Grade.new("english", rand(0..100)))
-  s.reportcard.addGrade(Grade.new("science", rand(0..100)))
+  s.Reportcard.addGrade(Grade.new("math", rand(0..100)))
+  s.Reportcard.addGrade(Grade.new("history", rand(0..100)))
+  s.Reportcard.addGrade(Grade.new("english", rand(0..100)))
+  s.Reportcard.addGrade(Grade.new("science", rand(0..100)))
   s
 end
 
