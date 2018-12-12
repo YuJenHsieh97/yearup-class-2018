@@ -1,0 +1,14 @@
+<h2>Search Results</h2>
+
+<br>
+
+<% for book in @books %>
+    <%= book.title %>
+    <br>
+    <%= book.authors %>
+    <br>
+    <%= book.published_date %>
+    <br>
+    <hr>
+    
+<% end %>   
